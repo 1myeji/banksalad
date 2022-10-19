@@ -1,0 +1,613 @@
+body {
+  font-family: 'Pretendard',-apple-system,BlinkMacSystemFont,system-ui,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+  height: 4545px;
+  background-color: rgb(251, 251, 251);
+}
+a {
+  text-decoration: none;
+  color: rgb(67, 68, 68);
+}
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+  padding: 8px 20px;
+  border-bottom: 2px solid rgb(245, 245, 245);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.header-1__btn button{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(153, 153, 153, .2);
+  font-size: 12px;
+  padding: 3px 12px;
+}
+.header-1__btn button:nth-child(1) {
+  color: #434444;
+}
+.header-1__btn button:nth-child(1) i {
+  color: #999;
+}
+.header-1__btn button:nth-child(2) {
+  color: #999;
+}
+.header-1__menu {
+  display: flex;
+  font-size: 12px;
+  color:rgb(67, 68, 68);
+  letter-spacing: -1px;
+}
+.header-1__menu li {
+  padding-right: 15px;
+}
+.header-2 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 16px;
+  border-bottom: 5px solid rgb(245, 245, 245);
+  position: sticky;
+  top: 42px;
+  z-index: 1;
+}
+.header-2__logo {
+  width: 165px;
+  height: 29px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-right: 45px;
+}
+.header-2__menu {
+  display: flex;
+  color: rgb(43, 43, 43);
+}
+.header-2__menu > li {
+  padding: 0px 16px;
+  height: 56px;
+}
+.header-2__menu > li > a {
+  display: block;
+  padding-top: 20px;
+}
+.mega-menu {
+  width: 100%;
+  height: auto;
+  padding: 25px 0px 32px 240px;
+  background-color: rgb(251, 251, 251);
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  display: none;
+  z-index: 1;
+}
+.list {
+  float: left;
+  width: 260px;
+  line-height: 30px;
+}
+.list > li:nth-child(1) {
+  font-size: 13.5px;
+  font-weight: 900;
+}
+.best {
+  font-size: 10px;
+  color: rgb(245, 98, 0);
+  font-weight: 900;
+}
+.list li {
+  padding: 0px;
+  padding-right: 20px;
+}
+.list li a{
+  font-size: 13.5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: rgb(91, 92, 92);
+}
+.header-2__menu .card:hover .card-menu {
+  display: block;
+}
+.header-2__menu .bank:hover .bank-menu {
+  display: block;
+} 
+.header-2__menu .invest:hover .invest-menu {
+  display: block;
+} 
+.header-2__menu .pension:hover .pension-menu {
+  display: block;
+} 
+.header-2__menu .fintech:hover .fintech-menu {
+  display: block;
+} 
+.header-2__menu .megazine:hover .megazine-menu {
+  display: block;
+} 
+.header-2__menu > li > a:hover {
+  color: #10df99;
+} 
+.list li a:hover {
+  color: rgb(16, 223, 153);
+  font-weight: 700;
+}
+.rankingwrap {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  padding: 10px 0px;
+}
+.rankingwrap__container {
+  display: flex;
+  align-items: center;
+  width: 680px;
+  height: 56px;  
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(245, 245, 245);
+  padding: 0px 16px;
+}
+.rankingwrap__container > span {
+  padding-right: 16px;
+  color: #FD8760;
+  font-weight: 700;
+  font-size: 18px;
+}
+.rankingwrap__container > div {
+  width: 607px;
+}
+.rankingwrap__container > img {
+  width: 50px;
+  height: 32px;
+}
+.rankingwrap button {
+  margin-left: 16px;
+  background-color: #91b5be;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border: none;
+  border-radius: 2px;
+}
+.carousel {
+  background-color: rgb(234, 250, 243);
+  overflow: hidden;
+}
+.carousel__container:before {
+  content: "";
+  width: 1858px;
+  height: 1855px;
+  background-image: url('images/img1.svg');
+  background-repeat: no-repeat;
+  background-size: 1858px 1855px;
+  position: absolute;
+  top: -670px;
+  left: -180px;
+}
+.carousel__container {
+  width: 906px;
+  height: 350px;
+  padding: 130px 20px 0px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.carousel__container h1 {
+  position: relative;
+  letter-spacing: -4px;
+  font-size: 50px;
+  line-height: 1.2em;
+  font-weight: 900;
+  color: rgb(11, 12, 12);
+} 
+.use-btn {
+  position: relative;
+  margin-top: 25px;
+  background-color: rgb(19, 189, 126);
+  padding: 10px 20px;
+  border-radius: 41px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1px;
+}
+.service-btn {
+  position: relative;
+  margin-top: 14px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 41px;
+  border: 1px solid rgb(19, 189, 126);
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(19, 189, 126);
+  letter-spacing: -1px;
+}
+.main-section {
+  padding: 48px 0px;
+  border-bottom: 2px solid rgb(245, 245, 245);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 12px;
+}
+.main-container {
+  width: 882px;
+  padding: 0px 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1 p:nth-child(1) {
+  color: rgb(123, 123, 123);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+.box1 p:nth-child(2) {
+  margin-top: 18px;
+  color: rgb(11, 12, 12);
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -3px;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+}
+.features__item {
+  width: 290px;
+  height: 237px;
+  padding: 0px 16px;
+  text-align: center;
+}
+.features__item > img {
+  width: 160px;
+  height: 110px;
+  margin-bottom: 16px;
+}
+.features__item > h1 {
+  margin-bottom: 7px;
+  color: rgb(67, 68, 68);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+.features__item > h3 {
+  color: rgb(123, 123, 123);
+  letter-spacing: -2px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.main-container > h3 {
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+.picked-container {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.picked-content {
+  width: 204px;
+  height: 284px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.picked-content div:nth-child(1) {
+  width: 204px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.content-box {
+  width: 180px;
+  height: 122px;
+  padding: 16px 12px;
+  position: relative;
+  border: 1px solid rgba(91, 92, 92, .2);
+}
+.content-box > h2 {
+  color: rgb(4, 197, 132);
+  font-size: 14px;
+  font-weight: 500;
+}
+.content-box > h3 {
+  color: rgb(43, 43, 43);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  letter-spacing: -1px;
+  line-height: 28px;
+}
+.content-box div:nth-child(3) {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: transparent;
+  border-width: 0.5px;
+  border-color: rgba(91, 92, 92, .2);
+}
+.btn > i {
+  color: rgba(91, 92, 92);
+}
+.card-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-card-comparison/1575526531621-2020%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%EC%B6%94%EC%B2%9C.jpg');
+}
+.bank-image {
+  background-image: url('https://cdn.banksalad.com/content%2Fupload%2Fimages%2Fbookkeeping-615384_1920.jpg');
+}
+.invest-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-columns/1550647851678-code-1839406_1280.jpg');
+}
+.loan-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-columns/1579249157296-1553062555996-dollar-1362243_1920.jpg');
+}
+.pension-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-columns/1552789202508-money-2724241_1280.jpg');
+}
+.fintech-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-columns/1551088106390-experience-3239623_1280.jpg');
+}
+.megazine-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-columns/1567693701704-190904_%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C_30%EB%8C%80_%EC%A7%80%EC%BC%9C%EC%A4%98%28%ED%99%94%EC%9D%B4%ED%8A%B8%29305%20%281%29.jpg');
+}
+.tabs {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  margin-bottom: 24px;
+  border-top: 1px solid rgba(172, 172, 172, .2);
+  border-bottom: 1px solid rgba(172, 172, 172, .2);
+  position: relative;
+}
+.tabs > li {
+  margin: 0px 37px;
+  font-weight: 500;
+  color: rgb(123, 123, 123);
+}
+.tabs > li::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 22px;
+  background-color: rgba(123, 123, 123, .2);
+  position: absolute;
+  margin: 0px 32px;
+  top: 12px;
+}
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 906px;
+  height: 564px;
+}
+.review-content {
+  width: 202px;
+  height: 282px;
+  margin-right: 24px;
+}
+.review-content div:nth-child(1) {
+  background-image: url('https://cdn.banksalad.com/entities/content-card-comparison/1510286157232-%EC%8B%B1%EA%B8%80%EC%A1%B1.jpg');
+  width: 202px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.review-content > h2 {
+  margin-top: 12px;
+  font-size: 19px;
+  letter-spacing: -1px;
+  line-height: 26.8px;
+  height: 53px;
+}
+.review-content > h3 {
+  margin-top: 12px;
+  color: rgb(172, 172, 172);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+.review-content:hover .content-h2 {
+  color: rgb(4, 197, 132);
+}
+.review-content:hover .content-img{
+  filter: brightness(70%);
+}
+.tip-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 208px;
+}
+.tip-content {
+  margin-right: 24px;
+  width: 420px;
+  height: 80px;
+  padding: 20px 0px;
+  border-top: 1px solid rgba(172, 172, 172, .2);
+  border-bottom: 1px solid rgba(172, 172, 172, .2);
+}
+.tip-wrap {
+  display: flex;
+}
+.tip-image {
+  background-image: url('https://cdn.banksalad.com/entities/content-card-comparison/1524055506186-%EB%94%94%EC%9E%90%EC%9D%B8%EC%98%88%EC%81%9C%EC%B9%B4%EB%93%9C.JPG');
+  width: 120px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-right: 16px;
+}
+.tip-header > h2 {
+  font-size: 20px;
+}
+.tip-header > h3 {
+  margin-top: 12px;
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+}
+.tip-content a:hover .tip-header > h2{
+  color: rgb(4, 197, 132);
+}
+.tip-content a:hover .tip-image{
+  filter: brightness(70%);
+}
+.app-container {
+  padding-top: 100px;
+  background-image: url('https://cdn.banksalad.com/app/banksalad-web/landing-app-ad-banner-pc.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 320px;
+}
+.app-content {
+  width: 882px;
+  height: 226px;
+  margin: auto;
+}
+.app-content > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+.app-content > h1 {
+  margin-top: 14px;
+  margin-bottom: 42px;
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -5px;
+}
+.app-content > a > img {
+  width: 145px;
+  height: 48px;
+}
+.app-content a:nth-child(4) > img {
+  margin-left: 12px;
+}
+.card-container {
+  padding: 72px 20px 72px 20px;
+  text-align: center;
+  position: relative;
+}
+.card-container > h1 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -4px;
+}
+.card-container > img {
+  width: auto;
+  opacity: 0.2;
+  position: absolute;
+}
+.card-container img:nth-child(2) {
+  height: 37px;
+  top: 74px;
+  left: calc(45% - 350px);
+}
+.card-container img:nth-child(3) {
+  height: 15px;
+  top: 159px;
+  left: calc(30% - 250px);
+}
+.card-container img:nth-child(4) {
+  height: 24px;
+  top: 64px;
+  left: calc(55% + 200px);
+}
+.card-container img:nth-child(5) {
+  height: 14px;
+  left: calc(70% + 200px);
+  top: 112px;
+}
+.card-container img:nth-child(6) {
+  height: 37px;
+  top: 160px;
+  left: calc(65% + 150px);
+}
+.contact-container {
+  padding: 32px 10px 32px 10px;
+  text-align: center;
+  background-color: rgb(240, 246, 248);
+}
+.contact-container p {
+  color: rgb(92, 129, 138);
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+}
+.contact-container a {
+  text-decoration: underline;
+  color: rgb(92, 129, 138);
+}
+.footer__main-section { 
+  background-color: rgb(52, 70, 75);
+}
+.footer__main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section1 > img {
+  width: 170px;
+  height: 35px;
+  margin-bottom: 28px;
+}
+.footer-section1 a img {
+  display: block;
+  width: 126px;
+  height: 42px;
+  margin-top: 12px;
+}
+.footer-section1 a {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 12px;
+}
+.footer__ul li:nth-child(1) {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  color: rgb(145, 181, 190);
+  letter-spacing: -1px;
+}
+.footer__ul > li > a {
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+  letter-spacing: -1px;
+  font-weight: 300;
+}
+.footer__container-center {
+  margin-top: 92px;
+}
+.footer__container-center > ul{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(245, 245, 245);
+  padding-top: 24px;
+}
+.footer__container-center > ul > li > a{
+  color: rgb(245, 245, 245);
+  font-size: 12px;
+}
+.footer__container-bottom {
+  margin-top: 47px;
+  margin-bottom: 70px;
+}
+.footer__container-bottom > p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.54);
+  line-height: 30px;
+}
