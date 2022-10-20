@@ -23,6 +23,7 @@ a {
   position: sticky;
   top: 0px;
   z-index: 1;
+  height: 42px;
 }
 .header-1__btn button{
   background-color: rgb(255, 255, 255);
