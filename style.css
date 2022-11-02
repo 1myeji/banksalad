@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Pretendard-Regular',-apple-system,BlinkMacSystemFont,system-ui,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
-  height: 4545px;
+  height: auto;
   background-color: rgb(251, 251, 251);
 }
 a {
@@ -561,6 +561,8 @@ a {
 }
 .footer__main-section { 
   background-color: rgb(52, 70, 75);
+  margin-bottom: 0px;
+  border: none;
 }
 .footer__main-container {
   display: flex;
